@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <nav>
+    <nav id="home">
         <div class="wrapper">
             <ul>
                 <div class="left_nav">
@@ -22,22 +22,22 @@
                 </div>
                 <div class="right_nav">
                     <li>
-                        <a href="">Home</a>
+                        <a href="#home">Home</a>
                     </li>
                     <li>
-                        <a href="">Services</a>
+                        <a href="#services">Services</a>
 
                     </li>
                     <li>
-                        <a href="">Work</a>
+                        <a href="#work">Work</a>
 
                     </li>
                     <li>
-                        <a href="">Testimonials</a>
+                        <a href="#testimonials">Testimonials</a>
 
                     </li>
                     <li>
-                        <a href="">Contact</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 </div>
             </ul>
@@ -61,7 +61,7 @@
         </div>
     </section>
 
-    <section class="second">
+    <section class="second" id="services">
         <div class="wrapper">
             <div class="services">
                 <span class="bold">Our Services</span>
@@ -140,7 +140,7 @@
         </div>
     </section>
 
-    <main class="portfolio">
+    <main class="portfolio" id="work">
         <div class="wrapper">
             <div class="separator">
                 <span class="bold">Portfolio</span>
@@ -220,7 +220,7 @@
                     <i class="fas fa-angle-down"></i>
                 </div>
 
-                <div class="reviews">
+                <div class="reviews" id="testimonials">
                     <span class="customers">What Our Happy Customer Say</span>
 
                     <span class="lorem">lorem ipsum dolor sit amet</span>
@@ -257,24 +257,24 @@
             </div>
         </div>
     </main>
-    
+
     <section class="fourth">
         <span class="touch">
         Get in Touch With us
         </span>
-        
+
         <span class="ready">
             Ready for 24/7
         </span>
     </section>
-    
+
     <section class="map">
         <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=ZSA%20Cz%C5%82uch%C3%B3w&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
     </section>
-    
-    <section class="fifth">
+
+    <section class="fifth" id="contact">
         <div class="wrapper">
-           <div class="contact">
+            <div class="contact">
                 <span class="contact_text">
                     Contact
                 </span>
@@ -285,18 +285,59 @@
             </div>
             <div class="form_wrapper">
                 <div class="hours">
-                
+                    <span class="info_bold">
+                    Office Hours
+                    </span>
+
+                    <span class="days">
+                    Monday to Friday / 7:00 - 18:00 Saturday / 9:00 - 15:00
+                    </span>
+
+                    <span class="location">
+                   <i class="fas fa-map-marker-alt"></i> 25 Silver Cost Avenue, MD 20910 Indonesia
+                    </span>
+
+                    <span class="phone">
+                   <i class="fas fa-phone"></i> (621) 555 6789
+                    </span>
+
+                    <span class="email">
+                    <i class="fas fa-envelope"></i> hello@macankumbang.net
+                    </span>
+
+                    <div class="socials">
+                        <i class="fab fa-twitter"></i>
+
+                        <i class="fab fa-facebook-f"></i>
+
+                        <i class="fab fa-google-plus"></i>
+                    </div>
                 </div>
-                
+
                 <div class="form_contact">
                     <form method="post">
-                        
+                        <div class="row-wrapper">
+                            <input type="text" name="name" placeholder="Name">
+                            <input type="email" name="email" placeholder="Email (will not published)">
+                        </div>
+                        <textarea placeholder="Message"></textarea>
+                        <input type="submit" value="Send">
                     </form>
                 </div>
-            
+
+            </div>
+        </div>
+        <div class="wrapper-90">
+            <div class="flex-end">
+                <a href="#home" class="up"><i class="fas fa-angle-up"></i></a>
             </div>
         </div>
     </section>
+    
+    <footer>
+       <span class="copy">&copy; Copyright 2013 Macankumbang</span>
+       <span class="height"><span class="bold">Macan</span>kumbang</span>
+    </footer>
 </body>
 
 </html>
