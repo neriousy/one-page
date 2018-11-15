@@ -98,6 +98,9 @@ ul {
     align-items: center;
     font-size: 15px;
 }
+.right_nav a:hover{
+    color:#6f6f6f
+}
 
 .right_nav li {
     margin: 10px 20px 10px 20px;
@@ -410,7 +413,9 @@ THIRD SECTION
     color: #b4b4b4;
     cursor: pointer;
 }
-
+.choice form [type="radio"]:hover + label {
+    color:#696969;
+}
 .choice form [type="radio"]:checked + label {
     color: #000;
 }
@@ -600,6 +605,9 @@ THIRD SECTION
     width: 25px;
     background-color: #b7b7b7;
     border-radius: 50%;
+}
+.container input:hover ~ .checkmark{ 
+    background-color:#959595;
 }
 
 .container input:checked ~ .checkmark {
@@ -794,8 +802,8 @@ FIFTH SECTION
     padding: 15px;
     background-color: #eeeeee;
     border-radius: 5px;
-    border: 0;
-    width: 180px;
+    border:0;
+    width: 225px;
 }
 
 textarea {
@@ -804,8 +812,8 @@ textarea {
     border-radius: 5px;
     border: 0;
     margin-top: 10px;
-    height: 100px;
-    width: 400px;
+    height: 180px;
+    width: 500px;
 }
 
 .row-wrapper {
@@ -821,8 +829,19 @@ textarea {
     height: 40px;
     color: #fff;
     margin-top: 10px;
+    cursor:pointer;
 }
 
+[type="submit"]:hover, [type="button"]:hover{
+    background-color:#9f3b3a
+}
+
+.form_contact form input[type="text"]:focus,
+.form_contact form input[type="email"]:focus,
+textarea:focus{
+    box-shadow: 0px 0px 0px 2px #ffffff;
+    outline:0;
+}
 .wrapper-90 {
     width: 95%;
     display: flex;
@@ -847,7 +866,14 @@ textarea {
     font-size: 50px;
     color: #919191;
 }
-
+.up:hover{
+    background-color:#dddddd;
+}
+/*
+###########
+FOOTER SECTION
+##########
+*/
 footer {
     width: 100%;
     display: flex;
@@ -866,4 +892,43 @@ footer {
 
 .height {
     font-size: 20px;
+}
+
+/*
+#######
+MEDIA
+#######
+*/
+
+@media only screen and (max-width: 767px) {
+    .left_text{
+        width:30%;
+    }
+    .left_text .bold{
+            font-size:17px;
+    }
+    
+    .image_wrapper{
+        width:50%;
+    }
+    
+    .window_item{
+        width:30%;
+        height:150px;
+    }
+    .form_contact{
+        width:45%;
+    }
+    
+    [type="email"]{
+        margin-left:16px;
+    }
+    
+    [type="email"]::placeholder, [type="text"]::placeholder{
+        font-size:10px;
+    }
+    
+    textarea{
+        width:320px;
+    }
 }
