@@ -677,7 +677,7 @@ FIFTH SECTION
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom:50px;
+    margin-bottom: 50px;
 }
 
 .contact_text {
@@ -687,37 +687,37 @@ FIFTH SECTION
 
 }
 
-.business::after{
+.business::after {
     content: "";
-    display:block;
-    width:235px;
-    height:1px;
-    background-color:#fff;
-    position:relative;
-    top:20px;
+    display: block;
+    width: 235px;
+    height: 1px;
+    background-color: #fff;
+    position: relative;
+    top: 20px;
 }
 
-.business::before{
-    content:"";
-    display:block;
-    width:15px;
-    height:15px;
-    border-radius:40px;
-    background-color:#fff;
-    position:relative;
-    top:50px;
+.business::before {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 40px;
+    background-color: #fff;
+    position: relative;
+    top: 50px;
 }
 
-.contact_text::after{
-    content:"";
-    display:block;
-    width:15px;
-    height:15px;
-    background-color:#fff;
-    border-radius:40px;
-    position:relative;
-    top:65px;
-    left:155px;
+.contact_text::after {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 40px;
+    position: relative;
+    top: 65px;
+    left: 155px;
 }
 
 .form_wrapper {
@@ -725,7 +725,7 @@ FIFTH SECTION
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
 .hours {
@@ -771,94 +771,99 @@ FIFTH SECTION
 }
 
 
-.socials i{
-    font-size:25px;
-    margin:10px;
-    color:#c9c9c9;
-    cursor:pointer;
+.socials i {
+    font-size: 25px;
+    margin: 10px;
+    color: #c9c9c9;
+    cursor: pointer;
     transition-duration: 0.5s;
 }
 
-.socials     i:hover{
-    color:#fff;
+.socials i:hover {
+    color: #fff;
 }
 
-.form_contact form{
-    display:flex;
-    flex-direction:column;
-    align-self:flex-start;
+.form_contact form {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
 }
 
-.form_contact form input[type="text"],.form_contact form input[type="email"]{
-    padding:15px;
-    background-color:#eeeeee;
-    border-radius:5px;
-    border:0;
-    width:180px;
+.form_contact form input[type="text"],
+.form_contact form input[type="email"] {
+    padding: 15px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    border: 0;
+    width: 180px;
 }
 
-textarea{
-    padding:15px;
-    background-color:#eeeeee;
-    border-radius:5px;
-    border:0;
-    margin-top:10px;
-    height:100px;
-    width:400px;
+textarea {
+    padding: 15px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 10px;
+    height: 100px;
+    width: 400px;
 }
 
-.row-wrapper{
-    display:flex;
+.row-wrapper {
+    display: flex;
     justify-content: space-between;
 }
 
-[type="submit"]{
-    background-color:#ea5a59;
-    border:0;
-    border-radius:5px;
-    width:150px;
-    height:40px;
-    color:#fff;
-    margin-top:10px;
+[type="submit"] {
+    background-color: #ea5a59;
+    border: 0;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    margin-top: 10px;
 }
-.wrapper-90{
-    width:95%;
-    display:flex;
+
+.wrapper-90 {
+    width: 95%;
+    display: flex;
     justify-content: flex-end;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
-.flex-end{
-    width:100%;
-    display:flex;
+
+.flex-end {
+    width: 100%;
+    display: flex;
     justify-content: flex-end;
 }
 
-.up{
-    width:50px;
-    height:50px;
-    border-radius:5px;
-    background-color:#c2c2c2;
-    display:flex;
+.up {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #c2c2c2;
+    display: flex;
     justify-content: center;
     align-items: center;
-    font-size:50px;
-    color:#919191;
+    font-size: 50px;
+    color: #919191;
 }
 
-footer{
-    width:100%;
-    display:flex;    
-    background-color:#151829;
+footer {
+    width: 100%;
+    display: flex;
+    background-color: #151829;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     flex-direction: column;
-    color:#797676;
-    font-size:12px;
-    height:200px;
+    color: #797676;
+    font-size: 12px;
+    height: 200px;
 }
-.copy{
-    margin-bottom:15px;
+
+.copy {
+    margin-bottom: 15px;
 }
-.height{
-    font-size:20px;
+
+.height {
+    font-size: 20px;
 }
