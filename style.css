@@ -303,7 +303,8 @@ THIRD SECTION
 */
 
 .third {
-    background-color: #848484;
+    background-image:url(image_1.jpg);
+    background-position: center;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -444,23 +445,46 @@ THIRD SECTION
 .row_2 {
     margin-bottom: 40px;
 }
+.background_1{
+    background-image: url(image_2.jpg);
+}
 
+.background_2{
+    background-image: url(image_3.jpg);
+}
+
+.background_3{
+    background-image: url(image_4.jpg);
+}
+
+.background_4{
+    background-image: url(image_5.jpg);
+}
+
+.background_5{
+    background-image: url(image_6.jpg);
+}
+
+.background_6{
+    background-image: url(image_7.jpg);
+}
 .window_item {
-    background-color: #7b7b7b;
-    color: #7b7b7b;
-    width: 320px;
-    height: 220px;
+    background-color: #515f82;
+    background-size: cover;
+    color:transparent;
+    width: 30%;
+    height: 250px;
     margin: 10px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    transition-duration: 0.5s
+    transition-duration:0.5s;
 }
 
 .window_item:hover {
-    background-color: #515f82;
     color: #fff;
+    background-image:none;
 }
 
 .fa-eye {
@@ -483,6 +507,13 @@ THIRD SECTION
 .fa-angle-down {
     font-size: 60px;
     cursor: pointer;
+    position:relative;
+    top:0;
+    transition-duration:0.5s;
+}
+
+.fa-angle-down:hover{
+    top:10px;
 }
 
 .reviews {
@@ -539,7 +570,7 @@ THIRD SECTION
 .grade {
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 }
 
@@ -548,7 +579,6 @@ THIRD SECTION
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin-top: 150px;
 }
 
 .quote_text {
@@ -564,18 +594,17 @@ THIRD SECTION
     margin-top: 20px;
 }
 
-.quote::after {
-    content: "";
-    display: inline-block;
-    background-color: #7b7b7b;
-    width: 200px;
-    height: 200px;
-    border-radius: 200px;
-    position: relative;
-    right: 300px;
-    bottom: 150px;
-}
 
+.user{
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    background-color:#64676e;
+    margin-right:50px;
+    background-image: url(circle_user.png);
+    background-position: center;
+    background-size:cover;
+}
 .four_dots {
     width: 100%;
     display: flex;
@@ -623,7 +652,8 @@ FOURTH SECTION
 
 .fourth {
     width: 100%;
-    background-color: #8a8a8a;
+    background-image: url(image_8.jpg);
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -937,13 +967,10 @@ MEDIA
     .image_wrapper {
     box-shadow: -12px 15px 0px 0px rgba(100, 103, 110, 1);
     border-bottom-left-radius: 6px;
-
+    }
     .white_image::after {
     position: relative;
     top:268px;
     left:283px;
 }
 }	
-
-
-}
