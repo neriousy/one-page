@@ -577,6 +577,7 @@ THIRD SECTION
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .quote {
@@ -598,7 +599,12 @@ THIRD SECTION
     font-size: 20px;
     margin-top: 20px;
 }
-
+.user_wrapper{
+    display:flex;
+    justify-content: center;
+    
+    
+}
 
 .user {
     width: 200px;
@@ -1018,7 +1024,12 @@ MEDIA
         width: 100%;
         text-align: center;
     }
-    
+    .user_wrapper{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
     .customers{
         font-size:1.5em;
     }
@@ -1042,17 +1053,20 @@ MEDIA
     .touch {
         font-size: 2em;
     }
-
-    .form_contact {
-        width: 100%;
-    }
     .row-wrapper{
         flex-direction: column;
+        width:100%;
+        justify-content: center;
+        align-items: center;
     }
     .form_contact form input[type="text"],
     .form_contact form input[type="email"]{
         width:90%;
         margin:0 0 10px 3px;
+    }
+    
+    .form_contact form input[type="submit"]{
+        width:96%;
     }
 
     [type="email"]::placeholder,
@@ -1095,6 +1109,9 @@ MEDIA
     }
     form {
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .form_contact {
         width: 100%;
