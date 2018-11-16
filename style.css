@@ -63,7 +63,6 @@ a:visited {
     NAV 
 ###########
 */
-
 nav {
     width: 100%;
     background-color: #0e0b12;
@@ -98,8 +97,9 @@ ul {
     align-items: center;
     font-size: 15px;
 }
-.right_nav a:hover{
-    color:#6f6f6f
+
+.right_nav a:hover {
+    color: #6f6f6f
 }
 
 .right_nav li {
@@ -158,7 +158,7 @@ FIRST SECTION
 .image_wrapper {
     box-shadow: -12px 15px 0px 0px rgba(100, 103, 110, 1);
     border-bottom-left-radius: 6px;
-    width:500px;
+    width: 500px;
 }
 
 .white_image::before {
@@ -303,7 +303,7 @@ THIRD SECTION
 */
 
 .third {
-    background-image:url(image_1.jpg);
+    background-image: url(image_1.jpg);
     background-position: center;
     width: 100%;
     display: flex;
@@ -316,6 +316,7 @@ THIRD SECTION
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .works {
@@ -415,9 +416,11 @@ THIRD SECTION
     color: #b4b4b4;
     cursor: pointer;
 }
+
 .choice form [type="radio"]:hover + label {
-    color:#696969;
+    color: #696969;
 }
+
 .choice form [type="radio"]:checked + label {
     color: #000;
 }
@@ -444,34 +447,36 @@ THIRD SECTION
 .row_2 {
     margin-bottom: 40px;
 }
-.background_1{
+
+.background_1 {
     background-image: url(image_2.jpg);
 }
 
-.background_2{
+.background_2 {
     background-image: url(image_3.jpg);
 }
 
-.background_3{
+.background_3 {
     background-image: url(image_4.jpg);
 }
 
-.background_4{
+.background_4 {
     background-image: url(image_5.jpg);
 }
 
-.background_5{
+.background_5 {
     background-image: url(image_6.jpg);
 }
 
-.background_6{
+.background_6 {
     background-image: url(image_7.jpg);
 }
+
 .window_item {
     background-color: #515f82;
     background-size: cover;
     background-position: center;
-    color:transparent;
+    color: transparent;
     width: 31%;
     height: 300px;
     margin: 10px 10px;
@@ -479,12 +484,12 @@ THIRD SECTION
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    transition-duration:0.5s;
+    transition-duration: 0.5s;
 }
 
 .window_item:hover {
     color: #fff;
-    background-image:none;
+    background-image: none;
 }
 
 .fa-eye {
@@ -507,13 +512,13 @@ THIRD SECTION
 .fa-angle-down {
     font-size: 60px;
     cursor: pointer;
-    position:relative;
-    top:0;
-    transition-duration:0.5s;
+    position: relative;
+    top: 0;
+    transition-duration: 0.5s;
 }
 
-.fa-angle-down:hover{
-    top:10px;
+.fa-angle-down:hover {
+    top: 10px;
 }
 
 .reviews {
@@ -595,16 +600,17 @@ THIRD SECTION
 }
 
 
-.user{
-    width:200px;
-    height:200px;
-    border-radius:100px;
-    background-color:#64676e;
-    margin-right:50px;
+.user {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: #64676e;
+    margin-right: 50px;
     background-image: url(circle_user.png);
     background-position: center;
-    background-size:cover;
+    background-size: cover;
 }
+
 .four_dots {
     width: 100%;
     display: flex;
@@ -636,8 +642,9 @@ THIRD SECTION
     background-color: #b7b7b7;
     border-radius: 50%;
 }
-.container input:hover ~ .checkmark{ 
-    background-color:#959595;
+
+.container input:hover ~ .checkmark {
+    background-color: #959595;
 }
 
 .container input:checked ~ .checkmark {
@@ -654,7 +661,7 @@ FOURTH SECTION
     width: 100%;
     background-image: url(image_8.jpg);
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -799,7 +806,7 @@ FIFTH SECTION
 }
 
 .location i {
-    margin:0 5px 0 5px;
+    margin: 0 5px 0 5px;
 }
 
 .phone i {
@@ -834,7 +841,7 @@ FIFTH SECTION
     padding: 15px;
     background-color: #eeeeee;
     border-radius: 5px;
-    border:0;
+    border: 0;
     width: 225px;
 }
 
@@ -861,19 +868,21 @@ textarea {
     height: 40px;
     color: #fff;
     margin-top: 10px;
-    cursor:pointer;
+    cursor: pointer;
 }
 
-[type="submit"]:hover, [type="button"]:hover{
-    background-color:#9f3b3a
+[type="submit"]:hover,
+[type="button"]:hover {
+    background-color: #9f3b3a
 }
 
 .form_contact form input[type="text"]:focus,
 .form_contact form input[type="email"]:focus,
-textarea:focus{
+textarea:focus {
     box-shadow: 0px 0px 0px 2px #ffffff;
-    outline:0;
+    outline: 0;
 }
+
 .wrapper-90 {
     width: 95%;
     display: flex;
@@ -898,14 +907,17 @@ textarea:focus{
     font-size: 50px;
     color: #919191;
 }
-.up:hover{
-    background-color:#dddddd;
+
+.up:hover {
+    background-color: #dddddd;
 }
+
 /*
 ###########
 FOOTER SECTION
 ##########
 */
+
 footer {
     width: 100%;
     display: flex;
@@ -933,103 +945,171 @@ MEDIA
 */
 
 @media only screen and (max-width: 767px) {
-    body{
+
+    body {
+        width: 100%;
+    }
+    .wrapper {
+        width: 100%;
+    }
+    nav .wrapper {
+        width: 100%;
+    }
+    
+    .first .wrapper{
         width:100%;
     }
-    nav .wrapper{
+    
+    .portfolio .wrapper{
         width:100%;
     }
-    
-    ul{
-        justify-content: center;
-    }
-    
-    li{
-        font-size: 20px;
-    }
-    .left_text{
-        width:100%;
-        text-align: center;
-    }
-    .left_text .bold{
-            font-size:30px;
-    }
-    
-    .image_wrapper{
-        width:50%;
-    }
-    
-    .photoshop{
-        flex-direction: column;
-    }
-    
-    .window_row{
-        flex-direction: column;
-        
-    }
-    .window_item{
-	    font-size:11px;
-        width:100%;
-        height:300px;
-    }
-    .windows{
-        height:auto;
-    }
-    .form_contact{
-        width:45%;
-    }
-    
-    [type="email"]{
-        margin-left:16px;
-    }
-    
-    [type="email"]::placeholder, [type="text"]::placeholder{
-        font-size:10px;
-    }
-    
-    textarea{
-        width:320px;
+    .right_nav {
+        display: none;
     }
 
-    .image_wrapper {
-        display:none;
-    } 
-    .fifth .wrapper, .hours{
-        width:100%;
-    }
-    
-    .socials{
-        display:flex;
+    ul {
         justify-content: center;
     }
-    .form_wrapper{
+
+    li {
+        font-size: 20px;
+    }
+    .left_text {
+        width: 100%;
+        text-align: center;
+    }
+    .left_text .bold {
+        font-size: 2em;
+    }
+
+    .works {
+        font-size: 2em;
+    }
+
+    .photoshop {
+        flex-direction: column;
+    }
+
+    .window_row {
+        flex-direction: column;
+
+    }
+    .window_item {
+        font-size: 11px;
+        width: 100%;
+        height: 300px;
+    }
+    .windows {
+        height: auto;
+    }
+    .user{
+        margin:0;
+    }
+    .grade {
         flex-direction: column;
         width:100%;
-    }
-    
-    .info_bold{
-        text-align: center;
-    }
-    
-    .days, .location, .phone, .email{
-        width:100%;
-        text-align: center;
-    }
-    
-    .form_contact{
-        width:80%;
-        display:flex;
         justify-content: center;
-        align-items:center;
     }
-    .socials{
+    .quote {
+        width: 100%;
+        margin-top:10px;
+    }
+    .quote_text {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .customers{
+        font-size:1.5em;
+    }
+    .four_dots{
+        margin:25px 0 50px 0;
+        justify-content: center;
+    }
+    
+    .container{
+        margin-right:10px;
+    }
+    .quote_author{
+        text-align: center;
         margin-bottom:20px;
     }
-    textarea{
-        width:94%;
+    .fourth {
+        width: 100%;
+        text-align: center;
+    }
+
+    .touch {
+        font-size: 2em;
+    }
+
+    .form_contact {
+        width: 100%;
+    }
+    .row-wrapper{
+        flex-direction: column;
+    }
+    .form_contact form input[type="text"],
+    .form_contact form input[type="email"]{
+        width:90%;
+        margin:0 0 10px 3px;
+    }
+
+    [type="email"]::placeholder,
+    [type="text"]::placeholder {
+        font-size: 1em;
+    }
+
+    textarea {
+        width: 80%;
+        margin-left:3px;
     }
     
-    [type="submit"]{
-        width:100%;
+    .image_wrapper {
+        display: none;
     }
-}	
+    .fifth .wrapper,
+    .hours {
+        width: 100%;
+    }
+
+    .socials {
+        display: flex;
+        justify-content: center;
+    }
+    .form_wrapper {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .info_bold {
+        text-align: center;
+    }
+
+    .days,
+    .location,
+    .phone,
+    .email {
+        width: 100%;
+        text-align: center;
+    }
+    form {
+        width: 100%;
+    }
+    .form_contact {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .socials {
+        margin-bottom: 20px;
+    }
+    textarea {
+        width:90%;
+    }
+
+    [type="submit"] {
+        width: 100%;
+    }
+}
