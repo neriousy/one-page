@@ -987,10 +987,11 @@ MEDIA
     }
     .left_nav li {
         font-size: 1.2em;
+        margin-right:10px;
     }
     .menu {
         position: absolute;
-        height:auto;
+        height:200px;
         margin: -100px 0 0 -80px;
         display:flex;
         flex-direction:column;
@@ -1006,8 +1007,8 @@ MEDIA
     }
     .menu a{
         color:#000;
-        margin:10px 0px 0px -0px;
-        width:100%;
+        margin:10px 0px 0px 10px;
+        width:calc(100%-10px);
     }
     .hamburger input:checked ~ ul
     {
