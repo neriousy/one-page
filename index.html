@@ -13,15 +13,33 @@
 </head>
 
 <body>
-    <nav id="home">
-        <div class="wrapper">
-            <ul>
-                <span class="left_nav">
+    <div class="sidebar-wrapper">
+        <header>
+            <nav id="home">
+                <div class="wrapper">
+                    <ul>
+                    <span class="hamburger">
+                        <input type="checkbox" label="hamburger" id="hamburger">
+                        <label for="hamburger"><i class="fas fa-bars"></i></label>
+                        
+                        <ul class="menu">
+                          <a href="#home"><li>Home</li></a>
+                          <a href="#services"><li>Services</li></a>
+                          <a href="#work"><li>Work</li></a>
+                          <a href="#testimonials"><li>Testimonials</li></a>
+                          <a href="#contact"><li>Contact</li></a>
+                        </ul>
+                            
+                    </span>
+
+                        <span class="left_nav">
                     <li>
                         <span class="bold">Macan</span>kumbang
-                    </li>
-                </span>
-                <span class="right_nav">
+                        </li>
+                        </span>
+
+
+                        <span class="right_nav">
                     <li>
                         <a href="#home">Home</a>
                     </li>
@@ -41,310 +59,311 @@
                         <a href="#contact">Contact</a>
                     </li>
                 </span>
-            </ul>
-        </div>
-    </nav>
-
-    <section class="first">
-        <div class="wrapper">
-            <div class="left_text">
-                <h3 class="bold">Kalau Kita mau, Pasti ada Jalan</h3>
-
-                <p class="second_paragraph">Semangat terus saudara-saudara!</p>
-
-                <input type="button" name="button" value="More">
-            </div>
-            <div class="image_wrapper">
-                <div class="white_image">
+                    </ul>
                 </div>
+            </nav>
+        </header>
+        <section class="first">
+            <div class="wrapper">
+                <div class="left_text">
+                    <h3 class="bold">Kalau Kita mau, Pasti ada Jalan</h3>
+
+                    <p class="second_paragraph">Semangat terus saudara-saudara!</p>
+
+                    <input type="button" name="button" value="More">
+                </div>
+                <div class="image_wrapper">
+                    <div class="white_image">
+                    </div>
+                </div>
+
             </div>
+        </section>
 
-        </div>
-    </section>
+        <section class="second" id="services">
+            <div class="wrapper">
+                <div class="services">
+                    <h3 class="bold">Our Services</h3>
+                    <span class="ball">our awesome services</span>
+                </div>
 
-    <section class="second" id="services">
-        <div class="wrapper">
-            <div class="services">
-                <h3 class="bold">Our Services</h3>
-                <span class="ball">our awesome services</span>
-            </div>
+                <div class="photoshop">
+                    <div class="photoshop-item">
+                        <i class="fas fa-heart"></i>
 
-            <div class="photoshop">
-                <div class="photoshop-item">
-                    <i class="fas fa-heart"></i>
-
-                    <span class="design">
+                        <span class="design">
                         Beautiful Design
                     </span>
 
-                    <span class="photoshop-version">
+                        <span class="photoshop-version">
                         This is Photosohp's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
                     </span>
 
-                    <input type="button" name="more" value="More">
-                </div>
+                        <input type="button" name="more" value="More">
+                    </div>
 
-                <div class="photoshop-item">
-                    <i class="fas fa-globe-americas"></i>
+                    <div class="photoshop-item">
+                        <i class="fas fa-globe-americas"></i>
 
-                    <span class="design">
+                        <span class="design">
                         Global Trend
                     </span>
 
-                    <span class="photoshop-version">
+                        <span class="photoshop-version">
                         This is Photosohp's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
                     </span>
 
-                    <input type="button" name="more" value="More">
-                </div>
+                        <input type="button" name="more" value="More">
+                    </div>
 
-                <div class="photoshop-item">
-                    <i class="fas fa-tv"></i>
+                    <div class="photoshop-item">
+                        <i class="fas fa-tv"></i>
 
-                    <span class="design">
+                        <span class="design">
                         Responsive
                     </span>
 
-                    <span class="photoshop-version">
+                        <span class="photoshop-version">
                         This is Photosohp's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
                     </span>
 
-                    <input type="button" name="more" value="More">
-                </div>
+                        <input type="button" name="more" value="More">
+                    </div>
 
-                <div class="photoshop-item">
-                    <i class="fas fa-rocket"></i>
+                    <div class="photoshop-item">
+                        <i class="fas fa-rocket"></i>
 
-                    <span class="design">
+                        <span class="design">
                         Awesome Design
                     </span>
 
-                    <span class="photoshop-version">
+                        <span class="photoshop-version">
                         This is Photosohp's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
                     </span>
 
-                    <input type="button" name="more" value="More">
+                        <input type="button" name="more" value="More">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="third">
-        <div class="wrapper">
-            <h3 class="works">
-                Our Greatest Works
-            </h3>
+        <section class="third">
+            <div class="wrapper">
+                <h3 class="works">
+                    Our Greatest Works
+                </h3>
 
-            <span class="imagination">
+                <span class="imagination">
                 come from awesome imagination
             </span>
-        </div>
-    </section>
-
-    <main class="portfolio" id="work">
-        <div class="wrapper">
-            <div class="separator">
-                <span class="bold">Portfolio</span>
-                <span class="ball">our awesome works</span>
             </div>
+        </section>
 
-            <div class="choice">
-                <form>
-                    <input type="radio" name="group1" value="All" id="rad1" checked>
-                    <label for="rad1" class="label_radio">All</label> /
-                    <input type="radio" name="group1" value="Web" id="rad2">
-                    <label for="rad2" class="label_radio">Web</label> /
-                    <input type="radio" name="group1" value="Print" id="rad3">
-                    <label for="rad3" class="label_radio">Print</label>
-                </form>
-            </div>
-
-            <div class="windows">
-                <div class="window_row">
-                    <div class="window_item background_1">
-                        <span class="bold"> Macankumbang </span>
-
-                        <span>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenan sollicitudin, lorem quis bibendum auctor, nisi elit consequat</span>
-
-                        <i class="fas fa-eye"></i>
-                    </div>
-
-                    <div class="window_item background_2">
-                        <span class="bold"> Macankumbang </span>
-
-                        <span>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenan sollicitudin, lorem quis bibendum auctor, nisi elit consequat</span>
-
-                        <i class="fas fa-eye"></i>
-                    </div>
-
-                    <div class="window_item background_3">
-                        <span class="bold"> Macankumbang </span>
-
-                        <span>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenan sollicitudin, lorem quis bibendum auctor, nisi elit consequat</span>
-
-                        <i class="fas fa-eye"></i>
-                    </div>
+        <main class="portfolio" id="work">
+            <div class="wrapper">
+                <div class="separator">
+                    <span class="bold">Portfolio</span>
+                    <span class="ball">our awesome works</span>
                 </div>
 
-                <div class="window_row">
-                    <div class="window_item background_4">
-                        <span class="bold"> Macankumbang </span>
-
-                        <span>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenan sollicitudin, lorem quis bibendum auctor, nisi elit consequat</span>
-
-                        <i class="fas fa-eye"></i>
-                    </div>
-
-                    <div class="window_item background_5">
-                        <span class="bold"> Macankumbang </span>
-
-                        <span>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenan sollicitudin, lorem quis bibendum auctor, nisi elit consequat</span>
-
-                        <i class="fas fa-eye"></i>
-                    </div>
-
-                    <div class="window_item background_6">
-                        <span class="bold"> Macankumbang </span>
-
-                        <span>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenan sollicitudin, lorem quis bibendum auctor, nisi elit consequat</span>
-
-                        <i class="fas fa-eye"></i>
-                    </div>
-
+                <div class="choice">
+                    <form>
+                        <input type="radio" name="group1" value="All" id="rad1" checked>
+                        <label for="rad1" class="label_radio">All</label> /
+                        <input type="radio" name="group1" value="Web" id="rad2">
+                        <label for="rad2" class="label_radio">Web</label> /
+                        <input type="radio" name="group1" value="Print" id="rad3">
+                        <label for="rad3" class="label_radio">Print</label>
+                    </form>
                 </div>
 
-                <div class="expand">
-                    <span class="browse">Browse All</span>
+                <div class="windows">
+                    <div class="window_row">
+                        <div class="window_item background_1">
+                            <span class="bold"> Macankumbang </span>
 
-                    <span class="browse">300+</span>
+                            <span>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenan sollicitudin, lorem quis bibendum auctor, nisi elit consequat</span>
 
-                    <i class="fas fa-angle-down"></i>
-                </div>
+                            <i class="fas fa-eye"></i>
+                        </div>
 
-                <div class="reviews" id="testimonials">
-                    <span class="customers">What Our Happy Customer Say</span>
+                        <div class="window_item background_2">
+                            <span class="bold"> Macankumbang </span>
 
-                    <span class="lorem">lorem ipsum dolor sit amet</span>
-                </div>
+                            <span>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenan sollicitudin, lorem quis bibendum auctor, nisi elit consequat</span>
 
-                <div class="grade">
-                   <div class="user_wrapper">
-                    <div class="user"></div>
-                    
-                    <div class="quote">
-                        <span class="quote_text">This is Photoshop's version of Lorem Ipsun. Proin gravida nibh vel velit auctor aliquet. Aenaean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat molestias quos repellendus asperiores iusto! Vitae earum ducimus. </span>
+                            <i class="fas fa-eye"></i>
+                        </div>
 
-                        <span class="quote_author">John Doe</span>
+                        <div class="window_item background_3">
+                            <span class="bold"> Macankumbang </span>
+
+                            <span>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenan sollicitudin, lorem quis bibendum auctor, nisi elit consequat</span>
+
+                            <i class="fas fa-eye"></i>
+                        </div>
                     </div>
-                    
+
+                    <div class="window_row">
+                        <div class="window_item background_4">
+                            <span class="bold"> Macankumbang </span>
+
+                            <span>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenan sollicitudin, lorem quis bibendum auctor, nisi elit consequat</span>
+
+                            <i class="fas fa-eye"></i>
+                        </div>
+
+                        <div class="window_item background_5">
+                            <span class="bold"> Macankumbang </span>
+
+                            <span>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenan sollicitudin, lorem quis bibendum auctor, nisi elit consequat</span>
+
+                            <i class="fas fa-eye"></i>
+                        </div>
+
+                        <div class="window_item background_6">
+                            <span class="bold"> Macankumbang </span>
+
+                            <span>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenan sollicitudin, lorem quis bibendum auctor, nisi elit consequat</span>
+
+                            <i class="fas fa-eye"></i>
+                        </div>
+
                     </div>
-                    
-                    <div class="four_dots">
-                    <label class="container">
+
+                    <div class="expand">
+                        <span class="browse">Browse All</span>
+
+                        <span class="browse">300+</span>
+
+                        <i class="fas fa-angle-down"></i>
+                    </div>
+
+                    <div class="reviews" id="testimonials">
+                        <span class="customers">What Our Happy Customers Say</span>
+
+                        <span class="lorem">lorem ipsum dolor sit amet</span>
+                    </div>
+
+                    <div class="grade">
+                        <div class="user_wrapper">
+                            <div class="user"></div>
+
+                            <div class="quote">
+                                <span class="quote_text">This is Photoshop's version of Lorem Ipsun. Proin gravida nibh vel velit auctor aliquet. Aenaean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat molestias quos repellendus asperiores iusto! Vitae earum ducimus. </span>
+
+                                <span class="quote_author">John Doe</span>
+                            </div>
+
+                        </div>
+
+                        <div class="four_dots">
+                            <label class="container">
                         <input type="radio" name="radio" checked>
                         <span class="checkmark"></span>
                     </label>
 
-                    <label class="container">
+                            <label class="container">
                         <input type="radio"  name="radio">
                         <span class="checkmark"></span>
                     </label>
 
-                    <label class="container">
+                            <label class="container">
                         <input type="radio"  name="radio">
                         <span class="checkmark"></span>
                     </label>
 
-                    <label class="container">
+                            <label class="container">
                         <input type="radio"  name="radio">
                         <span class="checkmark"></span>
                     </label>
-                </div>
-                
+                        </div>
+
+                    </div>
                 </div>
             </div>
-        </div>
-    </main>
+        </main>
 
-    <section class="fourth">
-        <h3 class="touch">
-        Get in Touch With us
-        </h3>
+        <section class="fourth">
+            <h3 class="touch">
+                Get in Touch With us
+            </h3>
 
-        <span class="ready">
+            <span class="ready">
             Ready for 24/7
         </span>
-    </section>
+        </section>
 
         <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=ZSA%20Cz%C5%82uch%C3%B3w&t=&z=15&ie=UTF8&iwloc=&output=embed" class="map"></iframe>
-    
 
-    <section class="fifth" id="contact">
-        <div class="wrapper">
-            <div class="contact">
-                <h3 class="contact_text">
-                    Contact
-                </h3>
 
-                <span class="business">
+        <section class="fifth" id="contact">
+            <div class="wrapper">
+                <div class="contact">
+                    <h3 class="contact_text">
+                        Contact
+                    </h3>
+
+                    <span class="business">
                     Let's talk business, get in touch!
                 </span>
-            </div>
-            <div class="form_wrapper">
-                <div class="hours">
-                    <span class="info_bold">
+                </div>
+                <div class="form_wrapper">
+                    <div class="hours">
+                        <span class="info_bold">
                     Office Hours
                     </span>
 
-                    <span class="days">
+                        <span class="days">
                     Monday to Friday / 7:00 - 18:00 Saturday / 9:00 - 15:00
                     </span>
 
-                    <span class="location">
+                        <span class="location">
                    <i class="fas fa-map-marker-alt"></i> 25 Silver Cost Avenue, MD 20910 Indonesia
                     </span>
 
-                    <span class="phone">
+                        <span class="phone">
                    <i class="fas fa-phone"></i> (621) 555 6789
                     </span>
 
-                    <span class="email">
+                        <span class="email">
                     <i class="fas fa-envelope"></i> hello@macankumbang.net
                     </span>
 
-                    <div class="socials">
-                        <i class="fab fa-twitter"></i>
+                        <div class="socials">
+                            <i class="fab fa-twitter"></i>
 
-                        <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-facebook-f"></i>
 
-                        <i class="fab fa-google-plus"></i>
-                    </div>
-                </div>
-
-                <div class="form_contact">
-                    <form method="post">
-                        <div class="row-wrapper">
-                            <input type="text" name="name" placeholder="Name">
-                            <input type="email" name="email" placeholder="Email (will not published)">
+                            <i class="fab fa-google-plus"></i>
                         </div>
-                        <textarea placeholder="Message"></textarea>
-                        <input type="submit" value="Send">
-                    </form>
+                    </div>
+
+                    <div class="form_contact">
+                        <form method="post">
+                            <div class="row-wrapper">
+                                <input type="text" name="name" placeholder="Name">
+                                <input type="email" name="email" placeholder="Email (will not published)">
+                            </div>
+                            <textarea placeholder="Message"></textarea>
+                            <input type="submit" value="Send">
+                        </form>
+                    </div>
+
                 </div>
-
             </div>
-        </div>
-        <div class="wrapper-90">
-            <div class="flex-end">
-                <a href="#home" class="up"><i class="fas fa-angle-up"></i></a>
+            <div class="wrapper-90">
+                <div class="flex-end">
+                    <a href="#home" class="up"><i class="fas fa-angle-up"></i></a>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <footer>
-        <span class="copy">&copy; Copyright 2013 Macankumbang</span>
-        <span class="height"><span class="bold">Macan</span>kumbang</span>
-    </footer>
+        <footer>
+            <span class="copy">&copy; Copyright 2013 Macankumbang</span>
+            <span class="height"><span class="bold">Macan</span>kumbang</span>
+        </footer>
+    </div>
 </body>
 
 <script>
