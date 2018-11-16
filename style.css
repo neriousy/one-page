@@ -342,7 +342,7 @@ THIRD SECTION
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    height: 18 00px;
+    height:auto;
 }
 
 .portfolio .wrapper .separator {
@@ -691,11 +691,8 @@ MAP SECTION
 ###########
 */
 
-.map {
-    width: 100%;
-}
 
-.map iframe {
+.map{
     width: 100%;
     height: 440px;
 }
@@ -1128,5 +1125,9 @@ MEDIA
 
     [type="submit"] {
         width: 100%;
+    }
+    
+    .wrapper-90{
+        margin-top:15px;
     }
 }
