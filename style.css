@@ -43,24 +43,6 @@ a:visited {
 }
 
 /*
-SIDE BAR HEHEHE
-*/
-
-.sidebar-wrapper {
-    align-items: stretch;
-}
-
-
-
-
-
-
-
-
-
-
-
-/*
 ###############
    FONT AWESOME
 ###############
@@ -995,6 +977,7 @@ MEDIA
     }
     .hamburger {
         display: block;
+        width:100%;
     }
 
     .hamburger [type="checkbox"] {
@@ -1007,9 +990,8 @@ MEDIA
     }
     .menu {
         position: absolute;
-        width: 93%;
         height:auto;
-        margin: -100px 0 0 -50px;
+        margin: -100px 0 0 -80px;
         display:flex;
         flex-direction:column;
         align-items:flex-start;
@@ -1024,7 +1006,8 @@ MEDIA
     }
     .menu a{
         color:#000;
-        margin:10px 10px 10px -10px;
+        margin:10px 0px 0px -0px;
+        width:100%;
     }
     .hamburger input:checked ~ ul
     {
