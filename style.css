@@ -1007,7 +1007,7 @@ MEDIA
     }
     .menu {
         position: absolute;
-        width: 100%
+        width: 93%;
         height:auto;
         margin: -100px 0 0 -50px;
         display:flex;
