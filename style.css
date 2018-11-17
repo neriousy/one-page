@@ -688,7 +688,7 @@ THIRD SECTION
 
 .reviews {
     width: 100%;
-    height: 200px;
+    height: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -707,44 +707,47 @@ THIRD SECTION
 
 }
 
-.customers {
-    font-weight: bold;
-    font-size: 25px;
-    margin-bottom: -12px;
-}
-
-.lorem::after {
-    content: "";
+.portfolio .wrapper .services .bold::after {
     display: block;
+    content: "";
     width: 250px;
     height: 1px;
     background-color: #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     position: relative;
-    top: 10px;
+    top: 60px;
+    left:25px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
-.lorem::before {
+.portfolio .wrapper .services .bold::before {
     content: "";
     display: block;
     width: 15px;
     height: 15px;
-    border-radius: 40px;
     background-color: #000;
+    border-radius: 40px;
     position: relative;
-    top: 38px;
+    top:94px;
+    left:25px;
 }
 
-.customers::after {
+.portfolio .wrapper .services .ball::after {
     content: "";
     display: block;
     width: 15px;
     height: 15px;
-    border-radius: 40px;
     background-color: #000;
+    border-radius: 40px;
     position: relative;
-    top: 41px;
-    left: 305px;
+    left:265px;
+    top:13px;
 }
+
 
 .grade {
     width: 100%;
@@ -761,6 +764,7 @@ THIRD SECTION
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    margin-top:60px;
 }
 
 .quote {
@@ -1407,6 +1411,7 @@ MEDIA
     }
     .customers {
         font-size: 1.5em;
+        line-height: 1.4em;
     }
     .four_dots {
         margin: 25px 0 50px 0;
@@ -1445,7 +1450,7 @@ MEDIA
     }
     .form_contact form input[type="text"],
     .form_contact form input[type="email"] {
-        width: 90%;
+        width: 85%;
         margin: 0 0 10px 3px;
     }
 
@@ -1471,11 +1476,6 @@ MEDIA
     [type="email"]::placeholder,
     [type="text"]::placeholder {
         font-size: 1em;
-    }
-
-    textarea {
-        width: 80%;
-        margin-left: 3px;
     }
 
     .image_wrapper {
@@ -1541,7 +1541,7 @@ MEDIA
         margin-bottom: 20px;
     }
     textarea {
-        width: 90%;
+        width: 85%;
     }
 
     [type="submit"] {
@@ -1550,5 +1550,16 @@ MEDIA
 
     .wrapper-90 {
         margin-top: 15px;
+    }
+    .portfolio .wrapper .services h3{
+        font-size:1.05em;
+    }
+    
+    .portfolio .wrapper .services .ball{
+        font-size:1em;
+    }
+    
+    .portfolio .wrapper .services .bold::before{
+        top:91px
     }
 }
