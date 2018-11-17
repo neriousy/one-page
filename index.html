@@ -239,13 +239,13 @@
                 </div>
 
                 <div class="services" id="testimonials">
-                <h3 class="bold">What Our happy customers say</h3>
-                <span class="ball">our awesome services</span>
-            </div>
+                    <h3 class="bold">What Our happy customers say</h3>
+                    <span class="ball">our awesome services</span>
+                </div>
 
                 <div class="grade">
-                    <div class="user_wrapper">
-                        <div class="user"></div>
+                    <div class="user_wrapper user_1" id="opinion_1">
+                        <div class="user image_1"></div>
 
                         <div class="quote">
                             <span class="quote_text">This is Photoshop's version of Lorem Ipsun. Proin gravida nibh vel velit auctor aliquet. Aenaean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat molestias quos repellendus asperiores iusto! Vitae earum ducimus. </span>
@@ -255,27 +255,60 @@
 
                     </div>
 
+                    <div class="user_wrapper user_2" id="opinion_2">
+                        <div class="user image_2"></div>
+
+                        <div class="quote">
+                            <span class="quote_text">This is Photoshop's version of Lorem Ipsun. Proin gravida nibh vel velit auctor aliquet. Aenaean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat molestias quos repellendus asperiores iusto! Vitae earum ducimus. </span>
+
+                            <span class="quote_author">MyName IsJeff</span>
+                        </div>
+
+                    </div>
+
+                    <div class="user_wrapper user_3" id="opinion_3">
+                        <div class="user image_1"></div>
+
+                        <div class="quote">
+                            <span class="quote_text">This is Photoshop's version of Lorem Ipsun. Proin gravida nibh vel velit auctor aliquet. Aenaean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat molestias quos repellendus asperiores iusto! Vitae earum ducimus. </span>
+
+                            <span class="quote_author">Bob Ross</span>
+                        </div>
+
+                    </div>
+
+                    <div class="user_wrapper user_4" id="opinion_4">
+                        <div class="user image_2"></div>
+
+                        <div class="quote">
+                            <span class="quote_text">This is Photoshop's version of Lorem Ipsun. Proin gravida nibh vel velit auctor aliquet. Aenaean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat molestias quos repellendus asperiores iusto! Vitae earum ducimus. </span>
+
+                            <span class="quote_author">Anurak Dikshit</span>
+                        </div>
+
+                    </div>
+
                     <div class="four_dots">
                         <label class="container">
-                        <input type="radio" name="radio" checked>
-                        <span class="checkmark"></span>
-                    </label>
+                            <input type="radio" name="radio" id="slide_1" checked onclick="myFunction()">
+                            <span class="checkmark"></span>
+                        </label>
 
                         <label class="container">
-                        <input type="radio"  name="radio">
-                        <span class="checkmark"></span>
-                    </label>
+                            <input type="radio" name="radio" id="slide_2" onclick="myFunction()">
+                            <span class="checkmark"></span>
+                        </label>
 
                         <label class="container">
-                        <input type="radio"  name="radio">
-                        <span class="checkmark"></span>
-                    </label>
+                            <input type="radio"  name="radio" id="slide_3" onclick="myFunction()">
+                            <span class="checkmark"></span>
+                        </label>
 
                         <label class="container">
-                        <input type="radio"  name="radio">
-                        <span class="checkmark"></span>
-                    </label>
-                    </div>
+                            <input type="radio"  name="radio" id="slide_4" onclick="myFunction()">
+                            <span class="checkmark"></span>
+                        </label>
+                        </div>
 
                 </div>
             </div>
@@ -380,7 +413,46 @@
             }
         });
     });
+</script>
 
+<script>
+function myFunction() {
+    const radio_1 = document.getElementById("slide_1");
+    const user_1 = document.getElementById("opinion_1");
+    
+    const radio_2 = document.getElementById("slide_2");
+    const user_2 = document.getElementById("opinion_2");
+    
+    const radio_3 = document.getElementById("slide_3");
+    const user_3 = document.getElementById("opinion_3");
+    
+    const radio_4 = document.getElementById("slide_4");
+    const user_4 = document.getElementById("opinion_4");
+    
+    if (radio_1.checked == true){
+        user_1.style.display = "flex";
+    } else {
+       user_1.style.display = "none";
+    }
+    
+    if (radio_2.checked == true){
+        user_2.style.display = "flex";
+    } else {
+       user_2.style.display = "none";
+    }
+    
+    if (radio_3.checked == true){
+        user_3.style.display = "flex";
+    } else {
+       user_3.style.display = "none";
+    }
+    
+    if (radio_4.checked == true){
+        user_4.style.display = "flex";
+    } else {
+       user_4.style.display = "none";
+    }
+}
 </script>
 
 </html>

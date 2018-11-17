@@ -809,10 +809,23 @@ THIRD SECTION
     border-radius: 100px;
     background-color: #64676e;
     margin-right: 50px;
-    background-image: url(circle_user.png);
     background-position: center;
     background-size: cover;
 }
+.user_1{
+    display:flex;
+}
+.user_2, .user_3, .user_4{
+    display:none;
+}
+.image_1{
+    background-image: url(circle_user.png);
+}
+
+.image_2{
+    background-image: url(user_2.png);
+}
+
 
 .four_dots {
     width: 100%;
