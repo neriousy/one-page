@@ -1584,4 +1584,8 @@ MEDIA
     .portfolio .wrapper .services .ball::after{
         left:250px;
     }
+    
+    .user_2, .user_3, .user_4{
+    display:none;
+    }
 }
