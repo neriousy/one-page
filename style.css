@@ -1560,6 +1560,15 @@ MEDIA
     }
     
     .portfolio .wrapper .services .bold::before{
-        top:91px
+        top:91px;
+        left:10px;
+    }
+    
+    .portfolio .wrapper .services .bold::after{
+        left:10px;
+    }
+    
+    .portfolio .wrapper .services .ball::after{
+        left:250px;
     }
 }
