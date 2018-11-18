@@ -1139,6 +1139,7 @@ textarea {
     margin-top: 10px;
     height: 180px;
     width: 500px;
+    resize: none;
 }
 
 .row-wrapper {
