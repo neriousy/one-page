@@ -714,7 +714,7 @@ THIRD SECTION
     display: flex;
     position: relative;
     top: 60px;
-    left:25px;
+    left: 25px;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -728,8 +728,8 @@ THIRD SECTION
     background-color: #000;
     border-radius: 40px;
     position: relative;
-    top:94px;
-    left:25px;
+    top: 94px;
+    left: 25px;
 }
 
 .portfolio .wrapper .services .ball::after {
@@ -740,8 +740,8 @@ THIRD SECTION
     background-color: #000;
     border-radius: 40px;
     position: relative;
-    left:265px;
-    top:13px;
+    left: 265px;
+    top: 13px;
 }
 
 
@@ -760,7 +760,7 @@ THIRD SECTION
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    margin-top:60px;
+    margin-top: 60px;
 }
 
 .quote {
@@ -808,20 +808,33 @@ THIRD SECTION
     background-position: center;
     background-size: cover;
 }
-.user_1{
-    display:-webkit-box;
-    display:-ms-flexbox;
-    display:flex;
+
+.user_1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 }
-.user_2, .user_3, .user_4{
-    display:none;
+
+.user_2,
+.user_3,
+.user_4 {
+    display: none;
 }
-.image_1{
+
+.image_1 {
     background-image: url(circle_user.png);
 }
 
-.image_2{
+.image_2 {
     background-image: url(user_2.png);
+}
+
+.image_3{
+    background-image: url(user_3.jpg);
+}
+
+.image_4{
+    background-image: url(user_4.png);
 }
 
 
@@ -1565,28 +1578,30 @@ MEDIA
     .wrapper-90 {
         margin-top: 15px;
     }
-    .portfolio .wrapper .services h3{
-        font-size:1.05em;
+    .portfolio .wrapper .services h3 {
+        font-size: 1.05em;
     }
-    
-    .portfolio .wrapper .services .ball{
-        font-size:1em;
+
+    .portfolio .wrapper .services .ball {
+        font-size: 1em;
     }
-    
-    .portfolio .wrapper .services .bold::before{
-        top:91px;
-        left:10px;
+
+    .portfolio .wrapper .services .bold::before {
+        top: 91px;
+        left: 10px;
     }
-    
-    .portfolio .wrapper .services .bold::after{
-        left:10px;
+
+    .portfolio .wrapper .services .bold::after {
+        left: 10px;
     }
-    
-    .portfolio .wrapper .services .ball::after{
-        left:250px;
+
+    .portfolio .wrapper .services .ball::after {
+        left: 250px;
     }
-    
-    .user_2, .user_3, .user_4{
-    display:none;
+
+    .user_2,
+    .user_3,
+    .user_4 {
+        display: none;
     }
 }
