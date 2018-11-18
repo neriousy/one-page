@@ -631,10 +631,8 @@ THIRD SECTION
     -ms-flex-direction: column;
     flex-direction: column;
     -webkit-transition-duration: 0.5s;
-    -o-transition-duration: 0.5s;
     transition-duration: 0.5s;
     -webkit-transition-timing-function: ease;
-    -o-transition-timing-function: ease;
     transition-timing-function: ease;
 }
 
@@ -675,10 +673,8 @@ THIRD SECTION
     position: relative;
     top: 0;
     -webkit-transition-duration: 0.5s;
-    -o-transition-duration: 0.5s;
     transition-duration: 0.5s;
     -webkit-transition-timing-function: ease;
-    -o-transition-timing-function: ease;
     transition-timing-function: ease;
 }
 
@@ -813,6 +809,8 @@ THIRD SECTION
     background-size: cover;
 }
 .user_1{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
 }
 .user_2, .user_3, .user_4{
@@ -1090,10 +1088,8 @@ FIFTH SECTION
     color: #c9c9c9;
     cursor: pointer;
     -webkit-transition-duration: 0.5s;
-    -o-transition-duration: 0.5s;
     transition-duration: 0.5s;
     -webkit-transition-timing-function: ease;
-    -o-transition-timing-function: ease;
     transition-timing-function: ease;
 }
 
@@ -1307,15 +1303,12 @@ MEDIA
         background: #e2e2e2;
         list-style-type: none;
         -webkit-transform-origin: 0% 0%;
-        -ms-transform-origin: 0% 0%;
         transform-origin: 0% 0%;
         -webkit-transform: translate(-100%, 0);
-        -ms-transform: translate(-100%, 0);
         transform: translate(-100%, 0);
         z-index: 1;
         -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
         transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
-        -o-transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
         transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
         transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
         padding-top: 125px;
@@ -1323,11 +1316,9 @@ MEDIA
     .menu a {
         color: #000;
         margin: 10px 0px 0px 10px;
-        width: calc(100%-10px);
     }
     .hamburger input:checked ~ ul {
         -webkit-transform: none;
-        -ms-transform: none;
         transform: none;
     }
 
@@ -1483,6 +1474,16 @@ MEDIA
 
     [type="email"]::-ms-input-placeholder,
     [type="text"]::-ms-input-placeholder {
+        font-size: 1em;
+    }
+
+    [type="email"]::-webkit-input-placeholder,
+    [type="text"]::-webkit-input-placeholder {
+        font-size: 1em;
+    }
+
+    [type="email"]:-ms-input-placeholder,
+    [type="text"]:-ms-input-placeholder {
         font-size: 1em;
     }
 
